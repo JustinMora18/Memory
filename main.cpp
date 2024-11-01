@@ -1,9 +1,3 @@
-//
-//  projectSandBox.hpp
-//  cst117
-//
-//  Created by Anastasiia Slastina on 10/13/24.
-//
 #include <cstdlib>
 #include <ctime>
 #include <iomanip>
@@ -31,9 +25,7 @@ int gameMemoSendBox() {
     // works for macos and linux
     sleep(5);
 
-    // clear the screen
-    for (int i = 0; i < 100; i++)
-        cout << "\n";
+    system(
 
     for (int row = 0; row < N; row++) {
         for (int col = 0; col < N; col++) {
